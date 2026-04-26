@@ -1,8 +1,7 @@
 import { Language, getTranslations } from '../i18n/translations'
 import { branding } from '../config/branding'
 import packageJson from '../../package.json'
-import { Heart } from 'lucide-react'
-import kofiSymbol from '../assets/kofi-symbol.svg'
+import { Heart, Coffee } from 'lucide-react'
 
 interface FooterProps {
   language: Language
@@ -76,21 +75,15 @@ export default function Footer({ language }: FooterProps) {
                   GitHub
                 </a>
               )}
-              {branding.kofiUrl && (
+              {branding.buymeacoffeeUrl && (
                 <a
-                  href={branding.kofiUrl}
-                  className="inline-flex items-center gap-2 px-3 py-1.5 text-sm text-foreground/75 hover:text-foreground bg-muted/50 hover:bg-muted border border-sky-500/15 hover:border-sky-500/30 rounded-md transition-colors"
+                  href={branding.buymeacoffeeUrl}
+                  className="inline-flex items-center gap-2 px-3 py-1.5 text-sm text-amber-700 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-300 bg-amber-50 dark:bg-amber-950/30 hover:bg-amber-100 dark:hover:bg-amber-950/50 border border-amber-300/30 hover:border-amber-400/50 rounded-md transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={kofiSymbol}
-                    alt=""
-                    className="h-4 w-auto"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                  Ko-fi
+                  <Coffee className="w-4 h-4" />
+                  Buy me a coffee
                 </a>
               )}
               {branding.donationUrl && (

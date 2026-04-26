@@ -379,7 +379,7 @@ if (!hasBrowserHeaders || isSuspiciousUA || !isSameOriginFetch) {
 
 ## Licence
 
-MIT License - voir [LICENSE](LICENSE)
+Apache-2.0 - voir [LICENSE](LICENSE)
 
 ---
 

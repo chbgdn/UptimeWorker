@@ -1,7 +1,7 @@
 /**
  * UptimeWorker - Modern Status Page Monitoring
  * Copyright (c) 2025 Slym B.
- * Licensed under the MIT License
+ * Licensed under the Apache License, Version 2.0
  *
  * 🎨 Branding Configuration
  *
@@ -35,7 +35,7 @@ export interface BrandingConfig {
   githubUrl?: string
   twitterUrl?: string
   linkedinUrl?: string
-  kofiUrl?: string
+  buymeacoffeeUrl?: string
   donationUrl?: string
 
   // Footer Links
@@ -69,7 +69,7 @@ export const branding: BrandingConfig = {
 
   // Social Links
   githubUrl: 'https://github.com/uptimeworker/uptimeworker',
-  kofiUrl: 'https://ko-fi.com/slym',
+  buymeacoffeeUrl: 'https://buymeacoffee.com/slym',
   donationUrl: 'https://github.com/sponsors/slymb',
 
   // Footer Links
