@@ -1,7 +1,7 @@
 /**
  * UptimeWorker - Modern Status Page Monitoring
  * Copyright (c) 2025 Slym B.
- * Licensed under the MIT License
+ * Licensed under the Apache License, Version 2.0
  */
 
 import React from 'react'
